@@ -79,9 +79,9 @@ export const defaultTestnetNetworkConfig: NetworkConfig = {
 };
 
 export const defaultMainnetNetworkConfig: NetworkConfig = {
-    explorerUrl: 'https://symbol.fyi/',
-    faucetUrl: 'https://faucet.mainnet.symboldev.network/',
-    statisticServiceUrl: 'https://symbol.services',
+    explorerUrl: 'https://explorer.test.siamreiwa.com/',
+    faucetUrl: 'https://faucet.test.siamreiwa.com/',
+    statisticServiceUrl: 'http://service.test.siamreiwa.com',
     defaultNetworkType: 104,
     networkConfigurationDefaults: {
         maxMosaicDivisibility: 6,
@@ -97,12 +97,12 @@ export const defaultMainnetNetworkConfig: NetworkConfig = {
         maxCosignedAccountsPerAccount: 25,
         maxMessageSize: 1024,
         maxMosaicAtomicUnits: 8999999999000000,
-        currencyMosaicId: '6BED913FA20223F8',
-        harvestingMosaicId: '6BED913FA20223F8',
+        currencyMosaicId: '12BEE2A928A7EBB1',
+        harvestingMosaicId: '12BEE2A928A7EBB1',
         defaultDynamicFeeMultiplier: 100,
         epochAdjustment: 1615853185,
         totalChainImportance: 7842928625000000,
-        generationHash: '57F7DA205008026C776CB6AED843393F04CD458E0AA2D9F1D5F31A402072B2D6',
+        generationHash: '2786BBE44CC1A0A02F4E8F7D6168118F8BDFFD1B1E64F4A76A67017745AC13AD',
     },
 };
 
