@@ -81,7 +81,7 @@ export const defaultTestnetNetworkConfig: NetworkConfig = {
 export const defaultMainnetNetworkConfig: NetworkConfig = {
     explorerUrl: 'https://explorer.test.siamreiwa.com/',
     faucetUrl: 'https://faucet.test.siamreiwa.com/',
-    statisticServiceUrl: 'http://service.test.siamreiwa.com',
+    statisticServiceUrl: 'https://service.test.siamreiwa.com',
     defaultNetworkType: 104,
     networkConfigurationDefaults: {
         maxMosaicDivisibility: 6,

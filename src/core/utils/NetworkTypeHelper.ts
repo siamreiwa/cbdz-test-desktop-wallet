@@ -24,7 +24,7 @@ export class NetworkTypeHelper {
      */
     public static networkTypeList: NetworkNodeEntry[] = [
         { value: NetworkType.MAIN_NET, label: 'CBDZ Test' },
-        { value: NetworkType.TEST_NET, label: 'Symbol Testnet' },
+        // { value: NetworkType.TEST_NET, label: 'Symbol Testnet' },
     ];
 
     /**
