@@ -51,34 +51,6 @@ export interface NetworkConfig {
 }
 
 export const defaultTestnetNetworkConfig: NetworkConfig = {
-    explorerUrl: 'https://testnet.symbol.fyi/',
-    faucetUrl: 'https://testnet.symbol.tools/',
-    statisticServiceUrl: 'https://testnet.symbol.services',
-    defaultNetworkType: 152,
-    networkConfigurationDefaults: {
-        maxMosaicDivisibility: 6,
-        namespaceGracePeriodDuration: 86400,
-        lockedFundsPerAggregate: '10000000',
-        maxCosignatoriesPerAccount: 25,
-        blockGenerationTargetTime: 30,
-        maxNamespaceDepth: 3,
-        maxMosaicDuration: 315360000,
-        minNamespaceDuration: 2592000,
-        maxNamespaceDuration: 157680000,
-        maxTransactionsPerAggregate: 100,
-        maxCosignedAccountsPerAccount: 25,
-        maxMessageSize: 1024,
-        maxMosaicAtomicUnits: 8999999999000000,
-        currencyMosaicId: '72C0212E67A08BCE',
-        harvestingMosaicId: '72C0212E67A08BCE',
-        defaultDynamicFeeMultiplier: 100,
-        epochAdjustment: 1667250467,
-        totalChainImportance: 7842928625000000,
-        generationHash: '49D6E1CE276A85B70EAFE52349AACCA389302E7A9754BCF1221E79494FC665A4',
-    },
-};
-
-export const defaultMainnetNetworkConfig: NetworkConfig = {
     explorerUrl: 'https://explorer.test.siamreiwa.com/',
     faucetUrl: 'https://faucet.test.siamreiwa.com/',
     statisticServiceUrl: 'https://service.test.siamreiwa.com',
@@ -97,14 +69,43 @@ export const defaultMainnetNetworkConfig: NetworkConfig = {
         maxCosignedAccountsPerAccount: 25,
         maxMessageSize: 1024,
         maxMosaicAtomicUnits: 8999999999000000,
-        currencyMosaicId: '12BEE2A928A7EBB1',
-        harvestingMosaicId: '12BEE2A928A7EBB1',
+        currencyMosaicId: '5282230404218E56',
+        harvestingMosaicId: '5282230404218E56',
         defaultDynamicFeeMultiplier: 100,
         epochAdjustment: 1615853185,
         totalChainImportance: 7842928625000000,
-        generationHash: '2786BBE44CC1A0A02F4E8F7D6168118F8BDFFD1B1E64F4A76A67017745AC13AD',
+        generationHash: 'B16B6D086414030485A8B11E79DA57FB9C9E86997111FAADA7F99B8A045ECF7B',
     },
 };
+
+export const defaultMainnetNetworkConfig: NetworkConfig =defaultTestnetNetworkConfig;
+// export const defaultMainnetNetworkConfig: NetworkConfig = {
+//     explorerUrl: 'https://explorer.test.siamreiwa.com/',
+//     faucetUrl: 'https://faucet.test.siamreiwa.com/',
+//     statisticServiceUrl: 'https://service.test.siamreiwa.com',
+//     defaultNetworkType: 104,
+//     networkConfigurationDefaults: {
+//         maxMosaicDivisibility: 6,
+//         namespaceGracePeriodDuration: 2592000,
+//         lockedFundsPerAggregate: '10000000',
+//         maxCosignatoriesPerAccount: 25,
+//         blockGenerationTargetTime: 30,
+//         maxNamespaceDepth: 3,
+//         maxMosaicDuration: 315360000,
+//         minNamespaceDuration: 2592000,
+//         maxNamespaceDuration: 157680000,
+//         maxTransactionsPerAggregate: 100,
+//         maxCosignedAccountsPerAccount: 25,
+//         maxMessageSize: 1024,
+//         maxMosaicAtomicUnits: 8999999999000000,
+//         currencyMosaicId: '12BEE2A928A7EBB1',
+//         harvestingMosaicId: '12BEE2A928A7EBB1',
+//         defaultDynamicFeeMultiplier: 100,
+//         epochAdjustment: 1615853185,
+//         totalChainImportance: 7842928625000000,
+//         generationHash: '2786BBE44CC1A0A02F4E8F7D6168118F8BDFFD1B1E64F4A76A67017745AC13AD',
+//     },
+// };
 
 const defaultNetworkConfig: Record<number, NetworkConfig> = {
     152: defaultTestnetNetworkConfig,
