@@ -74,7 +74,7 @@ export const defaultTestnetNetworkConfig: NetworkConfig = {
         defaultDynamicFeeMultiplier: 100,
         epochAdjustment: 1615853185,
         totalChainImportance: 7842928625000000,
-        generationHash: 'B16B6D086414030485A8B11E79DA57FB9C9E86997111FAADA7F99B8A045ECF7B',
+        generationHash: 'AA443BA0A8AC1300743B44215D4436694013E52518B95EB05B3DCF4D66C4319B',
     },
 };
 
